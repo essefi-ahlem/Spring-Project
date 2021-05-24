@@ -1,0 +1,87 @@
+TEST api 
+
+GET  http://localhost:8080/Students
+
+  	
+POST : SAME URL 
+
+{
+      	
+"firstName"  : "FFFF ",	
+"lastName"  : "FF ",	
+"section"  	: " FF",
+"CLASS" :{
+                "id" : "6" , 
+                "name" : "5555  ere Aa"
+            }
+}
+
+
+PUT  :
+{
+"id"         :2 , 
+"firstName"  : "FFFF ",	
+"lastName"  : "FF ",	
+"section"  	: " FF",
+"CLASS" :{       "id" : 1  ,
+                "name" : "5555  ere Aa"
+            }
+}
+
+
+
+
+
+
+DELETE : 
+
+http://localhost:8080/Students?STUDENT_ID=2
+
+
+
+
+
+
+
+
+---------------------------------------------
+
+GET http://localhost:8080/Subjects
+
+
+POST http://localhost:8080/Subjects
+
+{
+	"teacher_name" : "HEDI", 
+	"time" : "15", 
+	"CLASS_LIST" : [ 
+					{   
+
+                        "name"  : "BAC"
+                    }
+				]	
+
+}
+
+
+
+PUT UPDATE  
+
+http://localhost:8080/Subjects/38
+
+{   "id" : 38 ,
+	"teacher_name" : "HEddddDI", 
+	"time" : "15", 
+	"CLASS_LIST" : [ 
+					{   
+
+                        "name"  : "BAC"
+                    }
+				]	
+
+}
+
+
+
+DELETE   :  http://localhost:8080/Subjects/7
+
